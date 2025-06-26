@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/sc/gn.rpy", line 2: python block expects a non-empty block.
-    init python:
-                ^
+File "game/sc/zdemo.rpy", line 8: expected statement.
+    de temp = 100
+            ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Thu Jun 26 09:35:21 2025
+Fri Jun 27 00:52:50 2025

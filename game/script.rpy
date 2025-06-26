@@ -44,12 +44,5 @@ label start:
     $ dr_duilie = [{"name": "敌人1", "hp": 60, "atk": 10},{"name": "敌人2", "hp": 45, "atk": 13}]
     #e "您将遇到的敌人为[p_list(dr_duilie)]"
     $ quick_menu = False # 将快捷菜单栏隐藏
-    python:
-        
-        npc_name = "绿"    # 将敌方名字重命名
-        npc_xue = 300.00   # 初始化敌方血量
-        npc_gong = 110.00  # 初始化敌方攻击力
-        npc_fang = 150.00  # 初始化敌方防御力
-    #call screen zhandou
     call screen mycc
     return

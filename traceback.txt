@@ -1,43 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After loading the script.
-Exception: Screen notify is not known.
-
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/screens.rpy", line 258, in execute_default
+    default quick_menu = True
+Exception: store.quick_menu is being given a default a second time.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\bootstrap.py", line 359, in bootstrap
-    renpy.main.main()
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\main.py", line 529, in main
-    if renpy.parser.report_parse_errors():
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\parser.py", line 1800, in report_parse_errors
-    renpy.display.error.report_parse_errors(full_text, error_fn)
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\error.py", line 198, in report_parse_errors
-    renpy.game.invoke_in_new_context(
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\game.py", line 303, in invoke_in_new_context
-    return callable(*args, **kwargs)
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\error.py", line 48, in call_exception_screen
-    return renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\core.py", line 3019, in interact_core
-    rv = fn(*args, **kwargs)
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\python.py", line 1191, in py_exec
-    exec(py_compile(source, 'exec'), store, locals)
-  File "<none>", line 1, in <module>
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\exports\actionexports.py", line 45, in notify
-    renpy.config.notify(message)
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\exports\actionexports.py", line 56, in display_notify
-    renpy.exports.show_screen('notify', message=message)
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\screen.py", line 1325, in show_screen
-    raise Exception("Screen %s is not known.\n" % (name[0],))
-Exception: Screen notify is not known.
-
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\exports\statementexports.py", line 372, in execute_default_statement
+    i.execute_default(start)
+  File "game/screens.rpy", line 258, in execute_default
+    default quick_menu = True
+Exception: store.quick_menu is being given a default a second time.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.3.4.24120703
 turn_demo 1.0
-Thu Jun 26 09:35:27 2025
+Fri Jun 27 00:55:38 2025
