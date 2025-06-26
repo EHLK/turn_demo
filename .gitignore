@@ -2,3 +2,20 @@
 /errors.txt
 
 /game/saves/
+
+# Ren'Py 编辑器生成的缓存文件
+/__pycache__/
+/cache/
+/tmp/
+*.pyc
+
+# 构建输出目录
+/game/distribute/
+/export/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*~
