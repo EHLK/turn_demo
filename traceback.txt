@@ -1,32 +1,114 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 193, in script
-    python:
-  File "renpy/common/00start.rpy", line 194, in <module>
-    renpy.execute_default_statement(True)
-  File "game/screens.rpy", line 258, in execute_default
-    default quick_menu = True
-Exception: store.quick_menu is being given a default a second time.
+  File "game/script.rpy", line 56, in script call
+    call mycc(dy_duilie,dr_duilie)
+  File "game/sc/zdemo.rpy", line 27, in script
+    call screen mycc_screen(team_cy,team_cd)
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "game/sc/zdemo.rpy", line 32, in execute
+    screen mycc_screen(team_y=[],team_d=[]):
+  File "game/sc/zdemo.rpy", line 32, in execute
+    screen mycc_screen(team_y=[],team_d=[]):
+  File "game/sc/zdemo.rpy", line 34, in execute
+    frame:
+  File "game/sc/zdemo.rpy", line 39, in execute
+    vbox:
+  File "game/sc/zdemo.rpy", line 137, in execute
+    frame:
+  File "game/sc/zdemo.rpy", line 145, in execute
+    hbox:
+  File "game/sc/zdemo.rpy", line 181, in execute
+    frame:
+  File "game/sc/zdemo.rpy", line 186, in execute
+    vpgrid:
+  File "game/sc/zdemo.rpy", line 191, in execute
+    for a,t_c in enumerate(team_d):
+  File "game/sc/zdemo.rpy", line 196, in execute
+    frame:
+  File "game/sc/zdemo.rpy", line 198, in execute
+    button:
+  File "game/sc/zdemo.rpy", line 198, in keywords
+    button:
+  File "game/sc/zdemo.rpy", line 205, in <module>
+    action SetVariable(sd,)
+  File "renpy/common/00action_data.rpy", line 89, in __init__
+    super(Variable, self).__init__(store, name, *args, **kwargs)
+  File "renpy/common/00action_data.rpy", line 70, in __init__
+    super(Field, self).__init__(*args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'value'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 193, in script
-    python:
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00start.rpy", line 194, in <module>
-    renpy.execute_default_statement(True)
-  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\exports\statementexports.py", line 372, in execute_default_statement
-    i.execute_default(start)
-  File "game/screens.rpy", line 258, in execute_default
-    default quick_menu = True
-Exception: store.quick_menu is being given a default a second time.
+  File "game/script.rpy", line 56, in script call
+    call mycc(dy_duilie,dr_duilie)
+  File "game/sc/zdemo.rpy", line 27, in script
+    call screen mycc_screen(team_cy,team_cd)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 1980, in execute
+    self.call("execute")
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 1959, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\exports\statementexports.py", line 345, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\core.py", line 2745, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\screen.py", line 480, in visit_all
+    callback(self)
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\core.py", line 2745, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\screen.py", line 491, in per_interact
+    self.update()
+  File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\display\screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/sc/zdemo.rpy", line 32, in execute
+    screen mycc_screen(team_y=[],team_d=[]):
+  File "game/sc/zdemo.rpy", line 32, in execute
+    screen mycc_screen(team_y=[],team_d=[]):
+  File "game/sc/zdemo.rpy", line 34, in execute
+    frame:
+  File "game/sc/zdemo.rpy", line 39, in execute
+    vbox:
+  File "game/sc/zdemo.rpy", line 137, in execute
+    frame:
+  File "game/sc/zdemo.rpy", line 145, in execute
+    hbox:
+  File "game/sc/zdemo.rpy", line 181, in execute
+    frame:
+  File "game/sc/zdemo.rpy", line 186, in execute
+    vpgrid:
+  File "game/sc/zdemo.rpy", line 191, in execute
+    for a,t_c in enumerate(team_d):
+  File "game/sc/zdemo.rpy", line 196, in execute
+    frame:
+  File "game/sc/zdemo.rpy", line 198, in execute
+    button:
+  File "game/sc/zdemo.rpy", line 198, in keywords
+    button:
+  File "game/sc/zdemo.rpy", line 205, in <module>
+    action SetVariable(sd,)
+  File "renpy/common/00action_data.rpy", line 89, in __init__
+    super(Variable, self).__init__(store, name, *args, **kwargs)
+  File "renpy/common/00action_data.rpy", line 70, in __init__
+    super(Field, self).__init__(*args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'value'
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.3.4.24120703
 turn_demo 1.0
-Fri Jun 27 00:55:38 2025
+Mon Jun 30 07:01:52 2025
