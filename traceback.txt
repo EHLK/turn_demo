@@ -3,42 +3,28 @@
 While running game code:
   File "game/script.rpy", line 41, in script call
     call zlyc
-  File "game/script.rpy", line 77, in script call
-    $ renpy.call("mycc",team_cy=dy_duilie,team_cd=dr_duilie)
-  File "game/script.rpy", line 77, in script call
-    $ renpy.call("mycc",team_cy=dy_duilie,team_cd=dr_duilie)
-  File "game/script.rpy", line 77, in script call
-    $ renpy.call("mycc",team_cy=dy_duilie,team_cd=dr_duilie)
-  [Previous line repeated 3 more times]
-  File "game/script.rpy", line 88, in script
-    $ show_menu("再来一次？", "来", "不了",[ ("jump", "zlyc") ])
-  File "game/script.rpy", line 88, in <module>
-    $ show_menu("再来一次？", "来", "不了",[ ("jump", "zlyc") ])
-NameError: name 'show_menu' is not defined
+  File "game/script.rpy", line 58, in script
+    python:
+  File "game/script.rpy", line 59, in <module>
+    dy_duilie = [z.sx,lkd,duiyou2]
+AttributeError: 'ADVCharacter' object has no attribute 'sx'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 41, in script call
     call zlyc
-  File "game/script.rpy", line 77, in script call
-    $ renpy.call("mycc",team_cy=dy_duilie,team_cd=dr_duilie)
-  File "game/script.rpy", line 77, in script call
-    $ renpy.call("mycc",team_cy=dy_duilie,team_cd=dr_duilie)
-  File "game/script.rpy", line 77, in script call
-    $ renpy.call("mycc",team_cy=dy_duilie,team_cd=dr_duilie)
-  [Previous line repeated 3 more times]
-  File "game/script.rpy", line 88, in script
-    $ show_menu("再来一次？", "来", "不了",[ ("jump", "zlyc") ])
+  File "game/script.rpy", line 58, in script
+    python:
   File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "c:\Users\1\Desktop\Dreams\renpy\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "game/script.rpy", line 88, in <module>
-    $ show_menu("再来一次？", "来", "不了",[ ("jump", "zlyc") ])
-NameError: name 'show_menu' is not defined
+  File "game/script.rpy", line 59, in <module>
+    dy_duilie = [z.sx,lkd,duiyou2]
+AttributeError: 'ADVCharacter' object has no attribute 'sx'
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.3.4.24120703
 turn_demo 1.0
-Wed Jul  2 07:36:59 2025
+Sat Jul  5 06:17:00 2025

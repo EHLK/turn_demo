@@ -1,4 +1,5 @@
 init python:
+    # 技能一个分开定义
     class j_data:
         def __init__(self,name="未命名",hp = 100.0,atk = 10,atk_method = [{"普通攻击":{"dam":1,"damrate":1,"bloodsuck":0.0}},{"强力一击":{"dam":5,"multipler":1.1,"bloodsuck":.0}},{"吸血":{"dam":3,"multipler":1.0,"bloodsuck":.3}}]):
             self.atk_method = atk_method # 攻击方式

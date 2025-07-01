@@ -116,3 +116,5 @@ init python:
         b=renpy.random.choice(mb) # 角色下标
         c=renpy.random.randint(0,(len(敌队[i]["atk_method"])-1)) # 攻击方式下标
         return a,b,c
+    def 添加队列(队伍,添加的角色):
+        队伍.append(添加的角色)

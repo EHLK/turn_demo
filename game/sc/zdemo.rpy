@@ -104,7 +104,9 @@ screen mycc_screen(team_y=[],team_d=[]):
                                 unhovered SetVariable("temp",50)
                                 #action SetVariable("team_y[0]['hp']",30)
                                 #action Function(ChangeValue,team=team_y,amount = -10) 错误用法
-                                action Function(team_y[sy].sethp,30)
+                                #action Function(team_y[sy].sethp,30)
+                                
+                                action Function(添加队列, 队伍=team_y, 添加的角色=j_data(name='召唤物'))
                         frame:
                             background None
                             xsize 0.33
