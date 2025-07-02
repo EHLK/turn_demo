@@ -1,7 +1,9 @@
 /log.txt
 /errors.txt
-
+/image_cache.txt
 /game/saves/
+/project.json
+/traceback.txt
 
 # Ren'Py 编辑器生成的缓存文件
 /__pycache__/
@@ -9,6 +11,8 @@
 /tmp/
 *.pyc
 *.rpyc
+*.rpymc
+
 # 构建输出目录
 /game/distribute/
 /export/
@@ -19,3 +23,19 @@
 # 临时文件
 *.tmp
 *~
+game/gui.rpyc
+game/gui.rpyc
+game/options.rpyc
+game/screens.rpyc
+game/script.rpy
+game/script.rpy.bak
+game/script.rpyc
+game/cache/bytecode-39.rpyb
+game/cache/py3analysis.rpyb
+game/cache/screens.rpyb
+game/sc/debuging.rpyc
+game/sc/dh.rpyc
+game/sc/gn.rpyc
+game/sc/zddata.rpyc
+game/sc/zdemo.rpyc
+game/tl/None/common.rpymc
