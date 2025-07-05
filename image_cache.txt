@@ -1,0 +1,2368 @@
+2025-07-05 02:22:18 UTC
+Windows-10-10.0.22621
+Ren'Py 8.3.4.24120703
+
+----
+renpy/common/00gltest.rpy 390
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Total Miss <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Total Miss <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005b9f0d0>
+Total Miss <renpy.display.im.Image object ('gui/overlay/main_menu.png') at 0x000000000588a880>
+Total Miss <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005d2ad00>
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Predict screen say
+Predict screen quick_menu
+Added <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0> (3.94%)
+Added <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0> (3.94%)
+Added <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0> (3.94%)
+Added <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100> (3.94%)
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005ce8580>
+Added <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20> (6.59%)
+Added <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x0000000005bc0eb0> (6.59%)
+Added <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070> (6.71%)
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Predict screen load
+Predict screen preferences
+Added <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640> (6.83%)
+Added <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0> (6.94%)
+Added <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30> (6.96%)
+Added <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820> (6.99%)
+Added <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0> (7.01%)
+Added <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700> (7.03%)
+Added <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0> (9.68%)
+Added <renpy.display.im.Image object ('gui/button/radio_foreground.png') at 0x0000000005ca04c0> (9.68%)
+Added <renpy.display.im.Image object ('gui/button/radio_selected_foreground.png') at 0x0000000005c90940> (9.68%)
+Added <renpy.display.im.Image object ('gui/button/check_foreground.png') at 0x0000000005c96ca0> (9.68%)
+Added <renpy.display.im.Image object ('gui/button/check_selected_foreground.png') at 0x0000000005c8e8b0> (9.69%)
+Added <renpy.display.im.Image object ('gui/slider/horizontal_idle_bar.png') at 0x0000000005d22be0> (9.71%)
+Added <renpy.display.im.Image object ('gui/slider/horizontal_idle_thumb.png') at 0x0000000005cfa940> (9.71%)
+Added <renpy.display.im.Image object ('gui/slider/horizontal_hover_bar.png') at 0x0000000005c89fa0> (9.74%)
+Added <renpy.display.im.Image object ('gui/slider/horizontal_hover_thumb.png') at 0x0000000005c89eb0> (9.74%)
+Predict screen about
+Predict screen help
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen say
+Predict screen say
+Predict screen choice
+Predict screen say
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005ce8580>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x0000000005bc0eb0>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen load
+Predict screen preferences
+Kept <renpy.display.im.Image object ('gui/button/radio_foreground.png') at 0x0000000005ca04c0>
+Kept <renpy.display.im.Image object ('gui/button/radio_selected_foreground.png') at 0x0000000005c90940>
+Kept <renpy.display.im.Image object ('gui/button/check_foreground.png') at 0x0000000005c96ca0>
+Kept <renpy.display.im.Image object ('gui/button/check_selected_foreground.png') at 0x0000000005c8e8b0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_bar.png') at 0x0000000005d22be0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_thumb.png') at 0x0000000005cfa940>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_bar.png') at 0x0000000005c89fa0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_thumb.png') at 0x0000000005c89eb0>
+Predict screen about
+Predict screen help
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Total Miss <renpy.display.im.Image object ('gui/notify.png') at 0x00000000056b67f0>
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/script.rpy 35
+Total Miss <renpy.display.im.Image object ('_placeholder/girl.png') at 0x0000000005d386a0>
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/script.rpy 35
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen say
+Predict screen say
+Predict screen choice
+----
+game/script.rpy 36
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen say
+Predict screen choice
+Predict screen say
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005ce8580>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x0000000005bc0eb0>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen history
+Predict screen preferences
+Kept <renpy.display.im.Image object ('gui/button/radio_foreground.png') at 0x0000000005ca04c0>
+Kept <renpy.display.im.Image object ('gui/button/radio_selected_foreground.png') at 0x0000000005c90940>
+Kept <renpy.display.im.Image object ('gui/button/check_foreground.png') at 0x0000000005c96ca0>
+Kept <renpy.display.im.Image object ('gui/button/check_selected_foreground.png') at 0x0000000005c8e8b0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_bar.png') at 0x0000000005d22be0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_thumb.png') at 0x0000000005cfa940>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_bar.png') at 0x0000000005c89fa0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_thumb.png') at 0x0000000005c89eb0>
+----
+game/script.rpy 38
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen say
+Predict screen choice
+Predict screen say
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005ce8580>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x0000000005bc0eb0>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen history
+Predict screen preferences
+Kept <renpy.display.im.Image object ('gui/button/radio_foreground.png') at 0x0000000005ca04c0>
+Kept <renpy.display.im.Image object ('gui/button/radio_selected_foreground.png') at 0x0000000005c90940>
+Kept <renpy.display.im.Image object ('gui/button/check_foreground.png') at 0x0000000005c96ca0>
+Kept <renpy.display.im.Image object ('gui/button/check_selected_foreground.png') at 0x0000000005c8e8b0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_bar.png') at 0x0000000005d22be0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_thumb.png') at 0x0000000005cfa940>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_bar.png') at 0x0000000005c89fa0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_thumb.png') at 0x0000000005c89eb0>
+----
+game/script.rpy 40
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen choice
+Predict screen say
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005ce8580>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x0000000005bc0eb0>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen history
+Predict screen preferences
+Kept <renpy.display.im.Image object ('gui/button/radio_foreground.png') at 0x0000000005ca04c0>
+Kept <renpy.display.im.Image object ('gui/button/radio_selected_foreground.png') at 0x0000000005c90940>
+Kept <renpy.display.im.Image object ('gui/button/check_foreground.png') at 0x0000000005c96ca0>
+Kept <renpy.display.im.Image object ('gui/button/check_selected_foreground.png') at 0x0000000005c8e8b0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_bar.png') at 0x0000000005d22be0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_thumb.png') at 0x0000000005cfa940>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_bar.png') at 0x0000000005c89fa0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_thumb.png') at 0x0000000005c89eb0>
+----
+game/script.rpy 55
+Total Miss <renpy.display.im.Image object ('gui/button/choice_idle_background.png') at 0x0000000005c4ca60>
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen choice
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005ce8580>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x0000000005bc0eb0>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen history
+Predict screen preferences
+Kept <renpy.display.im.Image object ('gui/button/radio_foreground.png') at 0x0000000005ca04c0>
+Kept <renpy.display.im.Image object ('gui/button/radio_selected_foreground.png') at 0x0000000005c90940>
+Kept <renpy.display.im.Image object ('gui/button/check_foreground.png') at 0x0000000005c96ca0>
+Kept <renpy.display.im.Image object ('gui/button/check_selected_foreground.png') at 0x0000000005c8e8b0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_bar.png') at 0x0000000005d22be0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_idle_thumb.png') at 0x0000000005cfa940>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_bar.png') at 0x0000000005c89fa0>
+Kept <renpy.display.im.Image object ('gui/slider/horizontal_hover_thumb.png') at 0x0000000005c89eb0>
+Total Miss <renpy.display.im.Image object ('gui/button/choice_hover_background.png') at 0x0000000005c4c970>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Total Miss <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Total Miss <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Total Miss <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Total Miss <renpy.display.im.Image object ('_roundrect/rr12g.png') at 0x0000000005cd8130>
+Removed <renpy.display.im.Image object ('_roundrect/rr12g.png') at 0x0000000005cd8130>
+Total Miss <renpy.display.im.Twocolor object at 0x0000000005cfdd30>
+Total Miss <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x00000000059cf070>
+Total Miss <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c4c670>
+Total Miss <renpy.display.im.Image object ('_roundrect/rr12g.png') at 0x0000000005cd3d90>
+Removed <renpy.display.im.Image object ('_roundrect/rr12g.png') at 0x0000000005cd3d90>
+Total Miss <renpy.display.im.Twocolor object at 0x0000000005cd30d0>
+Total Miss <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Total Miss <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c31cd0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c2e160>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Added <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430> (11.81%)
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c291f0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c29b50>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c4c370>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c4c040>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c47070>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c47b80>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005b9f790>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c47b80>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c47070>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c47280>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c3c430>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c3ccd0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005b9fe20>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005ca7250>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c47b50>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c47a00>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c23640>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c23130>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c23b80>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c234f0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c4cf70>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c4c850>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005cf9a00>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005cf9250>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c3b5b0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c3be20>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c3ce80>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c3c280>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c204f0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005a1ed30>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c3c0a0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c3cd60>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005b9f9a0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005b9fe20>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c69ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005cf9a00>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Total Miss <renpy.display.im.Image object ('gui/overlay/confirm.png') at 0x0000000005c44fd0>
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c58a00>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005ce8940>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005cd8a00>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c58a00>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c19a90>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c19160>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c44580>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c44400>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c197c0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c19970>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c31490>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c31760>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c2ca90>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c2cdc0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005a0eeb0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005a0e220>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c33f40>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c33a00>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005cfd4c0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c33580>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c23e80>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c23610>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c23910>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c23940>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c319a0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c31730>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c3b460>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c3b610>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c3b460>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005ca09d0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005ca0790>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005ca09d0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005a0e220>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005a0e4f0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c6d250>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c6d490>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005ca77c0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005ca7e80>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c33370>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c6d850>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005cfd190>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005cfd4c0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c47070>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c47280>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c47a60>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c47a30>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005ae1520>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005a0e9d0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c1d2e0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c1ddf0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c35f40>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c35310>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c47310>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c478b0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c47310>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c478b0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c698e0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005a08c70>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c41b20>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c41a00>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c418e0>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c41dc0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c33910>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c33f70>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005ccbe50>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005ccb730>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c44850>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c44f40>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c25700>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c25940>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c6d850>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005cfd910>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+Predict screen cd_gj2
+Predict screen cd_gj2
+Predict screen cd_gj2
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c35400>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000005c35ac0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp
+----
+game/sc/zdemo.rpy 43
+Kept <renpy.display.im.Image object ('_transparent_tile.png') at 0x00000000052ecf10>
+Predict screen mycc_screen
+Kept <renpy.display.im.Image object ('images/jt_zbjx.png') at 0x0000000005415430>
+Kept <renpy.display.im.Twocolor object at 0x0000000005d2ce20>
+Kept <renpy.display.im.Image object ('gui/frame.png') at 0x00000000058a4ee0>
+Kept <renpy.display.im.Image object ('gui/bar/left_lv.png') at 0x00000000059b9f70>
+Kept <renpy.display.im.Image object ('gui/bar/right_lv.png') at 0x00000000059b9370>
+Kept <renpy.display.im.Image object ('gui/button/idle_background.png') at 0x0000000005c41400>
+Kept <renpy.display.im.Image object ('gui/button/hover_background.png') at 0x00000000059cfb50>
+Kept <renpy.display.im.Twocolor object at 0x0000000005c3c2b0>
+Kept <renpy.display.im.Image object ('gui/bar/right_hong.png') at 0x0000000005c23b50>
+Kept <renpy.display.im.Image object ('gui/bar/left_hong.png') at 0x0000000004fe23d0>
+Kept <renpy.display.im.Image object ('images/jt_dqxz.png') at 0x00000000054152b0>
+Kept <renpy.display.im.Image object ('images/atk_menu.png') at 0x00000000053d8dc0>
+Predict screen say
+Kept <renpy.display.im.Image object ('gui/textbox.png') at 0x00000000058a4df0>
+Kept <renpy.display.im.Image object ('gui/namebox.png') at 0x00000000058a44f0>
+Predict screen quick_menu
+Kept <renpy.display.im.Image object ('gui/button/quick_idle_background.png') at 0x0000000005cf9be0>
+Kept <renpy.display.im.Image object ('gui/button/quick_hover_background.png') at 0x0000000005cf9100>
+Predict screen save
+Kept <renpy.display.im.Image object ('gui/main_menu.png') at 0x0000000005cf3730>
+Kept <renpy.display.im.Image object ('gui/button/slot_idle_background.png') at 0x0000000005cee070>
+Kept <renpy.display.im.Image object ('gui/button/slot_hover_background.png') at 0x0000000005ce5640>
+Kept <renpy.display.im.ZipFileImage object at 0x0000000004fe22e0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_bar.png') at 0x0000000005cf0a30>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_idle_thumb.png') at 0x0000000005cee820>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_bar.png') at 0x0000000005ce5ca0>
+Kept <renpy.display.im.Image object ('gui/scrollbar/vertical_hover_thumb.png') at 0x0000000005ce5700>
+Kept <renpy.display.im.Image object ('gui/game_menu.png') at 0x0000000005cf3b20>
+Kept <renpy.display.im.Image object ('gui/overlay/game_menu.png') at 0x000000000588a6d0>
+Predict screen cd_gj
+Predict screen cd_jn
+Predict screen cd_tp

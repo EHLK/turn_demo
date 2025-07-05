@@ -1,41 +1,57 @@
-/log.txt
-/errors.txt
-/image_cache.txt
+# Ren'Py specific
+/game/autosave/
 /game/saves/
-/project.json
-/traceback.txt
-
-# Ren'Py 编辑器生成的缓存文件
-/__pycache__/
-/cache/
-/tmp/
-*.pyc
+/game/logs/
+/game/tmp/
+*.crashlog
+*.tmp
 *.rpyc
 *.rpymc
-
-# 构建输出目录
-/game/distribute/
-/export/
-
-# 日志文件
-*.log
-
-# 临时文件
-*.tmp
+*.rpyb
+# Editor cache and temp files
+/.renpy/
+/.project
+/.pydevproject
+/.metadata
+# Build artifacts
+/dist/
+/build/
+/launcher/
+# macOS specific
+.DS_Store
+*.swp
 *~
-game/gui.rpyc
-game/gui.rpyc
-game/options.rpyc
-game/screens.rpyc
-game/script.rpy
-game/script.rpy.bak
-game/script.rpyc
-game/cache/bytecode-39.rpyb
-game/cache/py3analysis.rpyb
-game/cache/screens.rpyb
-game/sc/debuging.rpyc
-game/sc/dh.rpyc
-game/sc/gn.rpyc
-game/sc/zddata.rpyc
-game/sc/zdemo.rpyc
-game/tl/None/common.rpymc
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+ehthumbs.db
+renpy_warp_1.35.0_76860b81.rpe.py
+# Windows specific
+$RECYCLE.BIN/
+System Volume Information/
+
+# Python Bytecode
+__pycache__/
+#  use pip install -r requirements.txt
+.venv/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Other
+*.bak
+*.tmp
+*.temp
+*.orig
+*.log
+log.txt
+errors.txt
+image_cache.txt
+traceback.txt

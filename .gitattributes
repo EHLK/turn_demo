@@ -1,0 +1,22 @@
+# 自动检测文本文件
+* text=auto
+
+# 二进制文件识别
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ogg binary
+*.mp3 binary
+*.ico binary
+*.icns binary
+# 请将图片、音频、字体等文件放在 game/images、game/audio、game/fonts 目录下
+/game/images/ binary
+/game/audio/ binary
+/game/fonts/ binary
+# 标记常见字体格式为二进制文件
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
